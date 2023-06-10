@@ -1,0 +1,109 @@
+.aboutHeadingLanding{
+    width: 50%;
+    padding-right: 30px;
+}
+.aboutBlockImage {
+    float: right;
+    margin-right: 0;
+    justify-content: end;
+    width: 50%;
+    display: flex;
+}
+
+.abotLandingPara {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.abotLandingHeading {
+    font-size: 60px;
+    color: rgb(255, 145, 0);
+}
+
+.teamMember {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.profileImg {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.aboutMember {
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.teamMemberAboutPara {
+    line-height: 1.6;
+}
+
+@media (max-width: 500px) {
+    img {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .aboutBlockImage {
+        float: right;
+        margin-right: 0px;
+        width: 50%;
+        overflow: hidden;
+        display: flex;
+    }
+    .aboutHeadingLanding{
+        height: 80vh;
+        overflow: scroll;
+    }
+    .aboutHeadingLanding h1{
+        font-size: 40px;
+    }
+    .aboutHeadingLanding p{
+        font-size: 20px;
+        overflow: scroll;
+    }
+
+    .profileImg img{
+        width: 100px;
+    }
+    .footer p{
+        font-size: 12px;
+    }
+}
+@media (max-width: 400px) {
+    .aboutHeadingLanding{
+        height: 50vh;
+        overflow: scroll;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 300px) {
+    .aboutHeadingLanding h1{
+        font-size: 30px;
+    }
+    .aboutHeadingLanding p{
+        font-size: 15px;
+        overflow: scroll;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .profileImg img{
+        width: 100px;
+    }
+    .footer p{
+        font-size: 12px;
+    }
+}

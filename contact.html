@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/common.css">
+    <link rel="stylesheet" type="text/css" href="./css/contact.css">
+    <link href="http://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+                
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="navLogo" href="index.html">
+                <img width="60px" alt="Logo image" src="./images/logo.png"/> DRAFT QUANTIFIERS LTD
+            </a>
+ 
+            <ul class="navbarItems">
+                <li class="navItem"><a class="navLink" href="./index.html">Home</a></li>
+                <li class="navItem"><a class="navLink" href="./about.html">About</a></li>
+                <li class="navItem"><a class="navLink" href="./projects.html">Projects</a></li>
+                <li class="navItem"><a class="navLink active" href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+     <!---Contact Form-->
+    <section class="contact container" id="contact">
+        <div class="ContactHeadingLanding">
+            <h1 class="heading">Contact us</h1>
+            <!---Contact Form--->
+            <form action="" class="contact-form" id="contact-form">
+                <input type="text" placeholder="Your Name" class="name" required>
+                <input type="email" name="" id="" placeholder="Email address..." class="email" required>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write message here..." class="message" required></textarea>
+                <input type="submit" value="Send" class="send-btn">
+            </form>
+        </div>    
+        <div class="contactBlockImage">
+            <img height="560vw" alt="Construction building" src="./images/ContactUs.png"/>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <div class="footer">
+        <p class="ccPara">
+            Website Developed by <a href="http://saelwebdesign.com">Sael Web Design</a>
+        </p>
+    </div>
+    
+  <!---Email JS Link--->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <!--Sweet alert js Link-->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script type="text/javascript">
+      (function() {
+          // https://dashboard.emailjs.com/admin/account
+          emailjs.init('oM8-jpVbt8oW89bHt');
+      })();
+  </script>
+
+    <!----Link to JS-->
+    <script src="js/script.js"></script>
+    <script src="js/modscript.js"></script>
+</body>
+</html>
